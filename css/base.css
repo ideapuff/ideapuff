@@ -38,22 +38,22 @@ article, aside, canvas, details,
 embed, figure, figcaption, footer,
 header, hgroup, menu, nav, output,
 ruby, section, summary, time, mark,
-audio, video 					{ margin: 0; padding: 0; border: 0; font-size:100%; font:inherit; vertical-align:baseline; }
+audio, video                    { margin: 0; padding: 0; border: 0; font-size:100%; font:inherit; vertical-align:baseline; }
 
 article, aside, details, figcaption, 
 figure, footer, header, hgroup, menu, 
-nav, section 					{ display:block; }
+nav, section                    { display:block; }
 
-body 						{ line-height:1; }
+body                        { line-height:1; }
 
-ol, ul 						{ list-style:none; }
+ol, ul                      { list-style:none; }
 
-blockquote, q 					{ quotes:none; }
+blockquote, q                   { quotes:none; }
 
 blockquote:before, blockquote:after,
-q:before, q:after 				{ content:''; content:none; }
+q:before, q:after               { content:''; content:none; }
 
-table 						{ border-collapse:collapse; border-spacing:0; }
+table                       { border-collapse:collapse; border-spacing:0; }
 
 /* 2. Basic Styles
 ================================================== */
@@ -74,7 +74,7 @@ body {
     margin: 20px 0 0 0;
     padding: 0;
     background-color: #fff;
-    font: 100%/150% 'Lato', sans-serif;
+    font: 100%/150% "Lato", sans-serif;
     color: #333;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: none;
@@ -86,13 +86,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight:normal;
 } 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight:inherit; }
-h1 { margin:0 0 10px 0; padding:0; font-size:2.25em; line-height:1.5em; color:#333; }
-h2 { margin:0 0 10px 0; padding:0; font-size:1.875em; line-height:2.125em; color:#333; }
-h3 { margin:0 0 10px 0; padding:0; font-size:1.5em; line-height:1.75em; color:#333; }
+h1 { margin:0 0 10px 0; padding:0; font-size:2.25em; line-height:1.75em; color:#333; }
+h2 { margin:0 0 10px 0; padding:0; font-size:1.875em; line-height:1.75em; color:#333; }
+h3 { margin:0 0 10px 0; padding:0; font-size:1.5em; line-height:1.375em; color:#333; }
 h4 { margin:0 0 10px 0; padding:0; font-size:1.125em; line-height:1.375em; color:#333; }
 h5 { margin:0 0 10px 0; padding:0; font-size:0.875em; line-height:1em; color:#333; }
 h6 { margin:0 0 10px 0; padding:0; font-size:0.750em; line-height:1em; color:#333; }
@@ -100,29 +100,29 @@ h6 { margin:0 0 10px 0; padding:0; font-size:0.750em; line-height:1em; color:#33
 p { margin:0; padding:0 0 10px 0; line-height:20px; }
 
 strong          { font-weight:bold; color:#333; }
-em 		{ font-style:italic; color:#666; }
-small 		{ font-size:80%; }
-sup, sub	{ height:0; line-height:5px; vertical-align:baseline; _vertical-align:bottom; position:relative; font-size:80%; }
-sup 		{ bottom:5px; }
-sub 		{ top:5px; }
-code, pre 	{ padding:0 3px 2px; color:#333; font-size:0.688em; }
-code		{ padding:0 4px 2px 4px; background-color:#000; border:1px solid #000; color:#f1f1f1; }
+em      { font-style:italic; color:#666; }
+small       { font-size:80%; }
+sup, sub    { height:0; line-height:5px; vertical-align:baseline; _vertical-align:bottom; position:relative; font-size:80%; }
+sup         { bottom:5px; }
+sub         { top:5px; }
+code, pre   { padding:0 3px 2px; color:#333; font-size:0.688em; }
+code        { padding:0 4px 2px 4px; background-color:#000; border:1px solid #000; color:#f1f1f1; }
 
-blockquote, blockquote p 	{ font-size:0.75em; line-height:24px; color:#777; font-style:italic; }
-blockquote 			{ margin:10px 0 15px 0; padding:0 0 0 5px; border-left:1px solid #747474; }
-blockquote cite 		{ display:block; font-size:0.75em; color:#555; }
-blockquote cite:before 		{ content:"\2014 \0020"; }
+blockquote, blockquote p    { font-size:0.75em; line-height:24px; color:#777; font-style:italic; }
+blockquote          { margin:10px 0 15px 0; padding:0 0 0 5px; border-left:1px solid #747474; }
+blockquote cite         { display:block; font-size:0.75em; color:#555; }
+blockquote cite:before      { content:"\2014 \0020"; }
 blockquote cite a,
 blockquote cite a:visited,
-blockquote cite a:visited 	{ color:#555; }
-blockquote span			{ width:15px; display:inline-block; }
+blockquote cite a:visited   { color:#555; }
+blockquote span         { width:15px; display:inline-block; }
 
-hr 				{ margin:20px 0 20px 0; border:0; border-top:1px solid #999; height:2px; width:100%; text-align:left; }
+hr              { margin:20px 0 20px 0; border:0; border-top:1px solid #999; height:2px; width:100%; text-align:left; }
 
 /* 4. Links
 ================================================== */
 
-a:link 		{
+a:link      {
     color: #333;
     text-decoration: none;
     outline: 0;
@@ -131,43 +131,43 @@ a:link 		{
     -webkit-transition: color .1s linear 0s;
     -o-transition: color .1s linear 0s;
 }
-a:visited 	{ color:#333; text-decoration:none; outline:0; }
-a:active 	{ color:#333; outline:0; }
-a:hover 	{ color:#999; outline:0; }
-a:focus 	{ -moz-outline-style:none; }
+a:visited   { color:#333; text-decoration:none; outline:0; }
+a:active    { color:#333; outline:0; }
+a:hover     { color:#999; outline:0; }
+a:focus     { -moz-outline-style:none; }
 p a, p a:visited { line-height: inherit; }
 
 /* 5. Lists
 ================================================== */
 
-ul, ol 			{ margin-bottom:20px; }
-ul 			{ list-style:none outside; }
-ul li			{ margin:0 0 5px 0; padding:0 0 0 18px; line-height:18px; background:transparent url('../images/bullet.png') no-repeat 0 3px; }
+ul, ol          { margin-bottom:20px; }
+ul          { list-style:none outside; }
+ul li           { margin:0 0 5px 0; padding:0 0 0 18px; line-height:18px; background:transparent url('../images/bullet.png') no-repeat 0 3px; }
 
-ul ul, ul ol		{ margin:5px 0 5px 0; }
-ol ol, ol ul 		{ margin:5px 0 5px 20px; }
+ul ul, ul ol        { margin:5px 0 5px 20px; }
+ol ol, ol ul        { margin:5px 0 5px 20px; }
 ul ul li, ul ol li,
-ol ol li, ol ul li 	{ margin:0 0 6px 0; }
+ol ol li, ol ul li  { margin:0 0 6px 0; }
 
-ul.square, ul.square ul	{ list-style:square outside; }
+ul.square, ul.square ul { list-style:square outside; }
 ul.circle, ul.circle ul { list-style:circle outside; }
-ul.disc, ul.disc ul 	{ list-style:disc outside; }
+ul.disc, ul.disc ul     { list-style:disc outside; }
 ul.square li,
 ul.circle li,
-ul.disc li		{ margin:0 0 5px 15px; padding:0; line-height:18px; background:none; }
+ul.disc li      { margin:0 0 5px 15px; padding:0; line-height:18px; background:none; }
 
-ol 			{ margin:0 0 20px 20px; list-style:decimal; }
-ol li			{ margin:0 0 5px 0; padding:0; line-height:18px; }
+ol          { margin:0 0 20px 20px; list-style:decimal; }
+ol li           { margin:0 0 5px 0; padding:0; line-height:18px; }
 
 /* 6. Images iFrames & Videos
 ================================================== */
 
-img 			{ border:0; -ms-interpolation-mode:bicubic; }
-.scaleWithGrid 		{ width:100%; height:auto; }		
-.media 			{ position:relative; margin:0 0 15px 0;	padding-bottom:51%; padding-top:30px; height:0; overflow:hidden; border:1px solid #ccc; }
+img             { border:0; -ms-interpolation-mode:bicubic; }
+.scaleWithGrid      { width:100%; height:auto; }        
+.media          { position:relative; margin:0 0 15px 0; padding-bottom:51%; padding-top:30px; height:0; overflow:hidden; border:1px solid #ccc; }
 .media iframe,
 .media object,  
-.media embed 		{ position:absolute; top:0; left:0; width:100%; height:100%; }
+.media embed        { position:absolute; top:0; left:0; width:100%; height:100%; }
 
 /* 7. Buttons
 ================================================== */
@@ -200,7 +200,7 @@ input[type="button"] {
     margin:5px 0 5px 0;
     line-height: normal;
     padding: 8px 10px;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Lato", sans-serif; }
 
 .button:hover,
 button:hover,
@@ -233,11 +233,11 @@ input[type="button"]:active {
     background: #ccc -ms-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* IE10+ */
     background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */ }
 
-.button.full-width,
-button.full-width,
-input[type="submit"].full-width,
-input[type="reset"].full-width,
-input[type="button"].full-width {
+.button.fullWidth,
+button.fullWidth,
+input[type="submit"].fullWidth,
+input[type="reset"].fullWidth,
+input[type="button"].fullWidth {
     width: 100%;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -269,7 +269,7 @@ select {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    font: 0.813em "Open Sans", sans-serif;
+    font: 0.813em "Lato", sans-serif;
     color: #777;
     margin: 0;
     width: 210px;
@@ -279,7 +279,7 @@ select {
     background: #fbfbfb;
     box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, .05);
     -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, .05); }
-/*	select {
+/*  select {
                 padding: 0; }*/
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -309,12 +309,12 @@ legend span {
     font-weight: normal;
     font-size: 0.813em;
     color: #444; }
-input[type="text"].full-width,
-input[type="password"].full-width,
-input[type="email"].full-width,
-input[type="tel"].full-width,
-textarea.full-width,
-select.full-width  {
+input[type="text"].fullWidth,
+input[type="password"].fullWidth,
+input[type="email"].fullWidth,
+input[type="tel"].fullWidth,
+textarea.fullWidth,
+select.fullWidth  {
     width: 100%;
 /*    box-sizing: border-box;          Opera/IE 8+ 
     -webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
@@ -324,44 +324,44 @@ select.full-width  {
 /* 9. Tables
 ================================================== */
 
-table				{ margin:0 0 20px 0; width:100%; }
-table th 			{ padding:10px 8px 10px 8px; background-color:#e2e2e2; color:#333; font-weight:bold; border:1px solid #999; }
-table td 			{ padding:10px 8px 10px 8px; background-color:#e2e2e2; color:#333; border:1px solid #999; }
-table tr.even td 		{ background-color:#fff; }
-table tr.odd td 		{ background-color:#f3f3f3; }
-table td.highlight 		{ color:#FFF; font-weight:bold; }
-table tr td.highlight		{ background-color:#333;  }
+table               { margin:0 0 20px 0; width:100%; }
+table th            { padding:10px 8px 10px 8px; background-color:#e2e2e2; color:#333; font-weight:bold; border:1px solid #999; }
+table td            { padding:10px 8px 10px 8px; background-color:#e2e2e2; color:#333; border:1px solid #999; }
+table tr.even td        { background-color:#fff; }
+table tr.odd td         { background-color:#f3f3f3; }
+table td.highlight      { color:#FFF; font-weight:bold; }
+table tr td.highlight       { background-color:#333;  }
 
 /* 10. Shorthand Styles
 ================================================== */
 
-.imgLeft   		{ float:left; margin:0 30px 30px 0; border:none; }
-.imgRight  		{ float:right; margin:0 0 30px 30px; border:none; }
+.imgLeft        { float:left; margin:0 30px 30px 0; border:none; }
+.imgRight       { float:right; margin:0 0 30px 30px; border:none; }
 
-.floatLeft 		{ float:left; }
-.floatRight   	{ float:right; }
+.floatLeft      { float:left; }
+.floatRight     { float:right; }
 
-.textBig		{ color:#a2bd30; font-weight:bold; line-height:26px; }
-.alignLeft    	{ text-align:left; }
-.alignRight    	{ text-align:right; }
+.textBig        { color:#a2bd30; font-weight:bold; line-height:26px; }
+.alignLeft      { text-align:left; }
+.alignRight     { text-align:right; }
 .alignCenter    { text-align:center; }
-.alignJustify 	{ text-align:justify; }
+.alignJustify   { text-align:justify; }
 
-.normal			{ font-weight:normal; }
-.bold          	{ font-weight:bold; }
-.italic        	{ font-style:italic; }
-.underline     	{ border-bottom:1px solid; }
-.highlight     	{ padding:0 3px 2px; color:#fff; font-size:100%; background:#FCC400; font-weight:bold; }
+.normal         { font-weight:normal; }
+.bold           { font-weight:bold; }
+.italic         { font-style:italic; }
+.underline      { border-bottom:1px solid; }
+.highlight      { padding:0 3px 2px; color:#fff; font-size:0.688em; background:#87CBCC; font-weight:bold; }
 
-.noPadding 		{ padding:0; }
-.noIndent  		{ margin-left:0; padding-left:0; }
-.noBullet  		{ list-style:none; list-style-image:none; }
+.noPadding      { padding:0; }
+.noIndent       { margin-left:0; padding-left:0; }
+.noBullet       { list-style:none; list-style-image:none; }
 
-.block			{ display:block; }
-.hide 			{ display:none; }
+.block          { display:block; }
+.hide           { display:none; }
 
-.top			{ margin:0 auto; margin-top:30px; }	
-.base			{ margin:0 auto; margin-bottom:40px; }
+.top            { margin:0 auto; margin-top:30px; } 
+.base           { margin:0 auto; margin-bottom:40px; }
 .removeBottom   { margin-bottom: 0 !important; }
 .halfBottom     { margin-bottom: 10px !important; }
 .addBottom      { margin-bottom: 20px !important; }
