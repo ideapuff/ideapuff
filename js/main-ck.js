@@ -1,1 +1,1 @@
-$(document).ready(function(){var e=$(window).height();e-=90;$("#call-to-action").css("height",e)});
+$(document).ready(function(){});

@@ -5,13 +5,13 @@
  *		1.1. Fonts & Color Palettes
  *		1.2. General Styles
  *		1.3. Navigations
- *		1.4. Forms
- *		1.5. Pagination
  *	2. Page Styles
  *		2.1. General Styling
  *		2.2. Header & Call to Action
- *		2.3.
- *		2.4. Contact Us
+ *		2.3. Service
+ *		2.4. Process
+ *		2.5. About
+ *		2.6. Footer
  *	3. Media Queries
  * ================================================== */
 /* 1. Site Styles
@@ -86,8 +86,19 @@ header nav ul.inline-list li {
 /* line 93, ../sass/style.sass */
 header nav ul.inline-list li:hover {
   border-bottom: 1px solid #86cbcb;
+  transition: border-bottom-color 0.5s linear;
+  -moz-transition: border-bottom-color 0.5s linear;
+  -webkit-transition: border-bottom-color 0.5s linear;
 }
-/* line 95, ../sass/style.sass */
+/* line 96, ../sass/style.sass */
+header nav ul.inline-list li.active {
+  border-bottom: 1px solid #86cbcb;
+}
+/* line 98, ../sass/style.sass */
+header nav ul.inline-list li.active a {
+  color: #86cbcb;
+}
+/* line 100, ../sass/style.sass */
 header nav ul.inline-list li a {
   display: block;
   padding: 20px 0 10px;
@@ -95,12 +106,12 @@ header nav ul.inline-list li a {
   font-size: 1.125em;
   font-weight: 700;
 }
-/* line 103, ../sass/style.sass */
+/* line 108, ../sass/style.sass */
 header nav ul.inline-list li a:hover {
   color: #86cbcb;
 }
 
-/* line 107, ../sass/style.sass */
+/* line 112, ../sass/style.sass */
 [data-magellan-expedition] {
   background: white;
   background: -moz-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.6) 100%);
@@ -112,16 +123,17 @@ header nav ul.inline-list li a:hover {
   box-shadow: 4px 0px 14px 2px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 4px 0px 14px 2px rgba(0, 0, 0, 0.1);
   padding: 0;
+  z-index: 99;
 }
 
 /* 2. Page Styles
  * 		2.1. General Styling
  * ================================================== */
-/* line 124, ../sass/style.sass */
+/* line 130, ../sass/style.sass */
 section {
   margin-top: 60px;
 }
-/* line 128, ../sass/style.sass */
+/* line 134, ../sass/style.sass */
 section .title h2 {
   border-top: 10px solid #fcc400;
   padding-top: 10px;
@@ -129,34 +141,48 @@ section .title h2 {
   font-size: 3.75em;
   font-weight: 900;
 }
-/* line 135, ../sass/style.sass */
+/* line 141, ../sass/style.sass */
 section .sub-title {
   padding-top: 20px;
 }
-/* line 137, ../sass/style.sass */
+/* line 143, ../sass/style.sass */
 section .sub-title p {
   font-size: 1.5em;
   font-weight: 300;
 }
 
 /* 2. Page Styles
- * 		2.2. Header & Call to Action
+ * 		2.2. Call to Action
  * ================================================== */
-/* line 146, ../sass/style.sass */
+/* line 152, ../sass/style.sass */
 #call-to-action {
   margin-top: 0;
   position: relative;
-  background-image: url(../images/background.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-/* line 154, ../sass/style.sass */
-#call-to-action img {
-  width: 100%;
-  height: auto;
+  height: 450px;
+  overflow: hidden;
 }
 /* line 157, ../sass/style.sass */
+#call-to-action .background {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  overflow: hidden;
+}
+/* line 164, ../sass/style.sass */
+#call-to-action .background img {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  width: 110%;
+  height: auto;
+  position: relative;
+  top: -300px;
+}
+/* line 174, ../sass/style.sass */
 #call-to-action .headline {
   position: absolute;
   width: 500px;
@@ -167,7 +193,7 @@ section .sub-title p {
   margin-left: -250px;
   z-index: 99;
 }
-/* line 166, ../sass/style.sass */
+/* line 183, ../sass/style.sass */
 #call-to-action .headline span {
   color: white;
   font-weight: 300;
@@ -175,30 +201,39 @@ section .sub-title p {
   top: -80px;
   right: 0;
 }
-/* line 173, ../sass/style.sass */
+/* line 190, ../sass/style.sass */
 #call-to-action .headline span ol {
   margin-left: 20px;
 }
-/* line 175, ../sass/style.sass */
+/* line 192, ../sass/style.sass */
 #call-to-action .headline h1 {
   color: white;
   font-size: 2.25em;
   font-weight: 700;
 }
-/* line 180, ../sass/style.sass */
+/* line 197, ../sass/style.sass */
 #call-to-action .headline h3 {
   color: white;
+}
+/* line 199, ../sass/style.sass */
+#call-to-action .headline p {
+  color: white;
+  font-style: italic;
+}
+/* line 202, ../sass/style.sass */
+#call-to-action .headline img {
+  width: 80%;
 }
 
 /* 2. Page Styles
  * 		2.3. Service
  * ================================================== */
-/* line 188, ../sass/style.sass */
+/* line 210, ../sass/style.sass */
 #service .title h2 {
   border-top-color: #86cbcb;
   color: #86cbcb;
 }
-/* line 194, ../sass/style.sass */
+/* line 216, ../sass/style.sass */
 #service .content .icons-print {
   position: relative;
   left: 50%;
@@ -208,11 +243,11 @@ section .sub-title p {
   width: 105px;
   height: 105px;
 }
-/* line 202, ../sass/style.sass */
+/* line 224, ../sass/style.sass */
 #service .content .icons-print:hover {
   background: url(../images/icons/print-color.png);
 }
-/* line 194, ../sass/style.sass */
+/* line 216, ../sass/style.sass */
 #service .content .icons-web {
   position: relative;
   left: 50%;
@@ -222,11 +257,11 @@ section .sub-title p {
   width: 105px;
   height: 105px;
 }
-/* line 202, ../sass/style.sass */
+/* line 224, ../sass/style.sass */
 #service .content .icons-web:hover {
   background: url(../images/icons/web-color.png);
 }
-/* line 194, ../sass/style.sass */
+/* line 216, ../sass/style.sass */
 #service .content .icons-support {
   position: relative;
   left: 50%;
@@ -236,11 +271,51 @@ section .sub-title p {
   width: 105px;
   height: 105px;
 }
-/* line 202, ../sass/style.sass */
+/* line 224, ../sass/style.sass */
 #service .content .icons-support:hover {
   background: url(../images/icons/support-color.png);
 }
-/* line 204, ../sass/style.sass */
+/* line 226, ../sass/style.sass */
 #service .content p {
   color: #b3b3b3;
+}
+/* line 228, ../sass/style.sass */
+#service .bar-sep {
+  width: 100%;
+  height: auto;
+}
+
+/* 2. Page Styles
+ * 		2.4. Process
+ * ================================================== */
+/* 2. Page Styles
+ * 		2.5. About
+ * ================================================== */
+/* line 244, ../sass/style.sass */
+#about .about-bg {
+  background: #86cbcb;
+  padding: 40px 0 20px;
+  -webkit-box-shadow: inset 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+}
+/* line 248, ../sass/style.sass */
+#about .about-bg .title h2 {
+  border-top-color: white;
+  color: white;
+}
+/* line 251, ../sass/style.sass */
+#about .about-bg .sub-title {
+  color: white;
+}
+
+/* 2. Page Styles
+ * 		2.6. Footer
+ * ================================================== */
+/* line 259, ../sass/style.sass */
+footer {
+  -webkit-box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.05);
+  padding: 15px 0 0;
 }

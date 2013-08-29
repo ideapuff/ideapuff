@@ -29,10 +29,11 @@
 	</head>
 	<body>
 		<section id="call-to-action">
+			<div class="background"><img src="images/background.jpg"></div>
 			<!-- <img src="images/background.jpg" class="background"> -->
-				<div class="headline">
+				<div class="headline text-center">
 					<!-- <h3>Creative Solutions for</h3> -->
-					<span>
+					<!-- <span class="text-left">
 						IdeaPuff
 						<em>verb.</em>
 						<ol>
@@ -40,11 +41,11 @@
 							<li>Another definition</li>
 							<li>One more</li>
 						</ol>
-					</span>
+					</span> -->
 					<img src="images/logo-large.png" alt="">
 					<h1>Your Idea can Change the World</h1>
-					<h3>You need a team that can help your idea puff?</h3>
-					<h3>IdeaPuff is a ... studio that promotes creative solutions and web & mobile application development.</h3>
+					<!-- <h3>You need a team that can help your idea puff?</h3> -->
+					<p>You need a team that can help your idea puff? We are dedicated to implement your ideas and introduced it to the world. IdeaPuff is a ... studio that promotes creative solutions and web & mobile application development.</p>
 					<!-- <h3>Creative Solutions for Website & Mobile Application Development</h3> -->
 				</div>
 		</section>
@@ -58,7 +59,7 @@
 					<ul class="inline-list">
 						<li data-magellan-arrival="service"><a href="#service">Service</a></li>
 						<li data-magellan-arrival="process"><a href="#process">Process</a></li>
-						<li data-magellan-arrival="product"><a href="#product">Product</a></li>
+						<!-- <li data-magellan-arrival="product"><a href="#product">Product</a></li> -->
 						<li data-magellan-arrival="about"><a href="#about">About</a></li>
 						<li data-magellan-arrival="contact"><a href="#contact">Contact</a></li>
 					</ul>
@@ -91,6 +92,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
+			<img src="images/bar-sep.png" alt="" class="bar-sep">
 		</section>
 		<section id="process" data-magellan-destination="process">
 			<div class="row">
@@ -107,18 +109,20 @@
 					<h4>1. Idea</h4>
 					<span>Lorem ipsum dolor sit amet</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, dolorum, nemo, totam, tenetur maxime dicta numquam voluptas omnis repellat aut excepturi ratione debitis soluta a ut animi eos alias laudantium?</p>
-					<a href="">Next Process ></a>
+					<a href="" class="right">Next Process ></a>
 				</div>
 				<div class="large-7 columns"></div>
 			</div>
 		</section>
 		<section id="about" data-magellan-destination="about">
-			<div class="row">
-				<div class="large-5 columns title">
-					<h2>About</h2>
-				</div>
-				<div class="large-7 columns sub-title">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies fermentum neque eget placerat. Proin feugiat hendrerit ultricies. Praesent sodales viverra eleifend.</p>
+			<div class="about-bg">
+				<div class="row">
+					<div class="large-5 columns title">
+						<h2>About</h2>
+					</div>
+					<div class="large-7 columns sub-title">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies fermentum neque eget placerat. Proin feugiat hendrerit ultricies. Praesent sodales viverra eleifend.</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -127,6 +131,8 @@
 				<div class="large-6 columns"></div>
 				<div class="large-6 columns"></div>
 			</div>
+			<img src="images/bar-sep.png" alt="" class="bar-sep">
+
 		</section>
 		<section id="contact" data-magellan-destination="contact">
 			<div class="row">
@@ -140,13 +146,13 @@
 			<div class="row">
 				<div class="large-2 columns">
 					<h6>Contact</h6>
-					<p>+1 123 1234<br>hello@ideapuff.com</p>
+					<p>+1 123 1234<br><a href="mailto:hello@ideapuff.com">hello@ideapuff.com</a></p>
 					<h6>Follow Us</h6>
 					<p>
-						Facebook<br>
-						Twitter<br>
-						LinkedIn<br>
-						Google+
+						<a href="">Facebook</a><br>
+						<a href="">Twitter</a><br>
+						<a href="">LinkedIn</a><br>
+						<a href="">Google+</a>
 					</p>
 				</div>
 				<form action="">
@@ -165,6 +171,16 @@
 				</form>
 			</div>
 		</section>
+		<footer>
+			<div class="row">
+				<div class="large-5 small-centered columns text-center">
+					<p>
+						Made with <img src="images/icons/love.png" alt=""> by <a href="http://ideapuff.com">IdeaPuff</a><br>
+						© Copyright 2013
+					</p>
+				</div>
+			</div>
+		</footer>
 		<script>
 		document.write('<script src=' +
 		('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +

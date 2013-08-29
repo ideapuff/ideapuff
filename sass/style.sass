@@ -4,13 +4,13 @@
  *		1.1. Fonts & Color Palettes
  *		1.2. General Styles
  *		1.3. Navigations
- *		1.4. Forms
- *		1.5. Pagination
  *	2. Page Styles
  *		2.1. General Styling
  *		2.2. Header & Call to Action
- *		2.3.
- *		2.4. Contact Us
+ *		2.3. Service
+ *		2.4. Process
+ *		2.5. About
+ *		2.6. Footer
  *	3. Media Queries
  * ================================================== */
 
@@ -92,6 +92,11 @@ header
 				border-bottom: 1px solid $gray-sup-light
 				&:hover
 					border-bottom: 1px solid $green
+					+fade(border-bottom-color, .5s)
+				&.active
+					border-bottom: 1px solid $green
+					a
+						color: $green
 				a
 					display: block
 					padding: 20px 0 10px
@@ -115,6 +120,7 @@ header
 	box-shadow:  4px 0px 14px 2px rgba(0, 0, 0, 0.1)
 	-webkit-box-shadow:  4px 0px 14px 2px rgba(0, 0, 0, 0.1)
 	padding: 0
+	z-index: 99
 
 
 /* 2. Page Styles
@@ -140,20 +146,31 @@ section
 				weight: 300
 
 /* 2. Page Styles
- * 		2.2. Header & Call to Action
+ * 		2.2. Call to Action
  * ================================================== */
 
 #call-to-action
 	margin-top: 0
 	position: relative
-	background:
-		image: url(../images/background.jpg)
-		size: 100% auto
-		repeat: no-repeat
-		position: center center
-	img
-		width: 100%
-		height: auto
+	height: 450px
+	overflow: hidden
+	.background
+		position: absolute
+		top: -5px
+		left: -5px
+		bottom: -5px
+		right: -5px
+		overflow: hidden
+		img
+			filter: blur(5px)
+			-webkit-filter: blur(5px)
+			-moz-filter: blur(5px)
+			-o-filter: blur(5px)
+			-ms-filter: blur(5px)
+			width: 110%
+			height: auto
+			position: relative
+			top: -300px
 	.headline
 		position: absolute
 		width: 500px
@@ -179,6 +196,11 @@ section
 				weight: 700
 		h3
 			color: white
+		p
+			color: white
+			font-style: italic
+		img
+			width: 80%
 
 /* 2. Page Styles
  * 		2.3. Service
@@ -203,3 +225,37 @@ section
 					background: url(../images/icons/#{$i}-color.png)
 		p
 			color: $gray-light
+	.bar-sep
+		width: 100%
+		height: auto
+
+/* 2. Page Styles
+ * 		2.4. Process
+ * ================================================== */
+
+#process
+
+
+/* 2. Page Styles
+ * 		2.5. About
+ * ================================================== */
+
+#about
+	.about-bg
+		background: $green
+		padding: 40px 0 20px
+		+box-shadow(inset 0px 8px 10px 0px rgba(0, 0, 0, .05))
+		.title h2
+			border-top-color: white
+			color: white
+		.sub-title
+			color: white
+
+
+/* 2. Page Styles
+ * 		2.6. Footer
+ * ================================================== */
+
+footer
+	+box-shadow(0px -8px 10px 0px rgba(0, 0, 0, .05))
+	padding: 15px 0 0
