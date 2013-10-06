@@ -10,7 +10,8 @@
  *		2.3. Service
  *		2.4. Process
  *		2.5. About
- *		2.6. Footer
+ *		2.6. Contact
+ *		2.7. Footer
  *	3. Media Queries
  * ================================================== */
 
@@ -38,6 +39,26 @@ a
 		color: $orange
 		+fade(color, 0.25s)
 
+input[type="submit"]
+	background-color: #e6e6e6
+	border: 0 solid #cccccc
+	-webkit-box-shadow: 0
+	box-shadow: 0
+	color: #575756
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+	-webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out
+	-moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out
+	transition: box-shadow 0.45s, border-color 0.45s ease-in-out
+	width: 100%
+	height: emCalc(45px)
+	+fade(all, .25s)
+	&:hover
+		background: $gray-light
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea
+	padding: emCalc(25px) emCalc(20px)
 
 /* 1. Site Styles
  * 		1.2. Navigations
@@ -46,6 +67,22 @@ a
 header
 	background: white
 	padding: 0
+	width: 100%
+	background: white
+	background: -moz-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,1)),color-stop(100%,rgba(255,255,255,0.6)))
+	background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
+	background: -o-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
+	background: -ms-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
+	background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
+	box-shadow:  4px 0px 14px 2px rgba(0, 0, 0, 0.1)
+	-webkit-box-shadow:  4px 0px 14px 2px rgba(0, 0, 0, 0.1)
+	z-index: 99
+	&.stuck
+		+fixed
+		top: 0
+
+		+fade(all, .25s)
 	.bar
 		height: 10px
 		padding: 0
@@ -61,6 +98,7 @@ header
 	nav
 		padding:
 			right: emCalc(15px)
+		float: right
 		ul.inline-list
 			margin: 0
 			li
@@ -69,7 +107,7 @@ header
 				border-bottom: 1px solid $gray-sup-light
 				&:hover
 					border-bottom: 1px solid $green
-					+fade(border-bottom-color, .5s)
+					+fade(border-bottom-color, .25s)
 				&.active
 					border-bottom: 1px solid $green
 					a
@@ -86,17 +124,6 @@ header
 						color: $green
 						// border-bottom: 1px solid $green
 
-[data-magellan-expedition]
-	background: white
-	background: -moz-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
-	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,1)),color-stop(100%,rgba(255,255,255,0.6)))
-	background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
-	background: -o-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
-	background: -ms-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
-	background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(255,255,255,0.6) 100%)
-	box-shadow:  4px 0px 14px 2px rgba(0, 0, 0, 0.1)
-	-webkit-box-shadow:  4px 0px 14px 2px rgba(0, 0, 0, 0.1)
-	z-index: 99
 
 
 /* 2. Page Styles
@@ -117,7 +144,6 @@ section
 	.sub-title
 		padding-top: emCalc(20px)
 		p
-			color: $gray
 			font:
 				size: emCalc(24px)
 				weight: 300
@@ -191,6 +217,19 @@ section
 				+retina-sprite(#{$i}, $hover: true)
 		p
 			color: $gray-light
+			@include opacity(1)
+			+fade(all, .25s)
+			&.active
+				// display: none
+				@include opacity(0)
+		span
+			@include opacity(0)
+			+fade(all, .25s)
+			+relative
+			top: emCalc(-75px)
+			line-height: 200%
+			&.active
+				@include opacity(1)
 	.bar-sep
 		width: 100%
 		height: auto
@@ -214,8 +253,8 @@ section
 			color: $gray-light
 		p
 			+clear
-	.large-7
-		height: emCalc(300px)
+	.large-7.hide-for-small
+		height: emCalc(270px)
 		$process: idea plan puff boil lab
 		@each $i in $process
 			.process-#{$i}
@@ -227,16 +266,16 @@ section
 			left: 4%
 		.process-plan
 			+absolute
-			bottom: 45%
+			bottom: 54%
 			left: 17%
 		.process-puff
 			+absolute
-			bottom: 62%
+			bottom: 75%
 			left: 50%
 			margin-left: -37px
 		.process-boil
 			+absolute
-			bottom: 45%
+			bottom: 50%
 			right: 17%
 		.process-lab
 			+absolute
@@ -254,6 +293,35 @@ section
 			-moz-border-radius: emCalc(320px) emCalc(320px) 0 0
 			-webkit-border-radius: emCalc(320px) emCalc(320px) 0 0
 			background: $gray-sup-light
+		i
+			h4
+				text-transform: uppercase
+				position: relative
+				top: emCalc(-28px)
+				text-align: center
+				letter-spacing: 1px
+				+fade(all, .25s)
+			&:hover h4
+				color: $orange
+	.large-7.show-for-small
+		margin:
+			top: emCalc(20px)
+			bottom: emCalc(20px)
+		$process: idea plan puff boil lab
+		@each $i in $process
+			.process-#{$i}
+				+iBlock
+				+retina-sprite(process-#{$i}, $hover: true)
+		i
+			h4
+				text-transform: uppercase
+				position: relative
+				top: emCalc(-28px)
+				text-align: center
+				letter-spacing: 1px
+				+fade(all, .25s)
+			&:hover h4
+				color: $orange
 
 
 /* 2. Page Styles
@@ -270,11 +338,46 @@ section
 			border-top-color: white
 			color: white
 		.sub-title
-			color: white !important
+			color: white
+		.row .large-12
+			margin-top: 0
+	.row .large-12
+		margin-top: emCalc(40px)
+	.bar-sep
+		width: 100%
+		height: auto
+
+/* 2. Page Styles
+ * 		2.6. Contact
+ * ================================================== */
+
+#contact
+	margin-bottom: emCalc(40px)
+	textarea
+		height: emCalc(180px)
+
+	input[type="checkbox"]
+		display: none
+		position: relative
+		+ label
+			text-align: center
+			margin-bottom: emCalc(15px)
+			span
+				width: 100%
+				height: emCalc(50px)
+				display: inline-block
+				vertical-align: middle
+				// margin: -2px 10px 0 0
+				background: white
+				cursor: pointer
+				background: $gray-sup-light
+				padding: emCalc(17px) 0
+		&:checked + label span
+			background: $gray-light
 
 
 /* 2. Page Styles
- * 		2.6. Footer
+ * 		2.7. Footer
  * ================================================== */
 
 footer

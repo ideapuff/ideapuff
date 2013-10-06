@@ -35,17 +35,6 @@
       "initialSize" : 1334,
       "fileType" : 8192
     },
-    "\/images\/icons-retina\/love.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons-retina\/love.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons-retina\/love.png",
-      "initialSize" : 454,
-      "fileType" : 8192
-    },
     "\/images\/icons-retina\/process-boil-hover.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -55,6 +44,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons-retina\/process-boil-hover.png",
       "initialSize" : 2826,
+      "fileType" : 8192
+    },
+    "\/images\/icons-retina\/love.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons-retina\/love.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons-retina\/love.png",
+      "initialSize" : 454,
       "fileType" : 8192
     },
     "\/js\/foundation\/foundation.interchange.js" : {
@@ -67,6 +67,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.interchange-ck.js",
       "fileType" : 64
+    },
+    "\/images\/icons-s228618c2de.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons-s228618c2de.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons-s228618c2de.png",
+      "initialSize" : 12951,
+      "fileType" : 8192
     },
     "\/js\/foundation\/foundation.joyride.js" : {
       "ignoreWasSetByUser" : 0,
@@ -112,15 +123,6 @@
       "initialSize" : 10170,
       "fileType" : 8192
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/vendor\/custom.modernizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -131,6 +133,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/custom.modernizr-ck.js",
       "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/icons\/support-hover.png" : {
       "ignoreWasSetByUser" : 0,
@@ -165,17 +176,16 @@
       "initialSize" : 1381,
       "fileType" : 8192
     },
-    "\/sass\/_main-settings.sass" : {
+    "\/js\/foundation\/foundation.cookie.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_main-settings.sass",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_main-settings.css",
-      "fileType" : 2,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.cookie.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.cookie-ck.js",
+      "fileType" : 64
     },
     "\/images\/bar.png" : {
       "ignoreWasSetByUser" : 0,
@@ -188,17 +198,6 @@
       "initialSize" : 276,
       "fileType" : 8192
     },
-    "\/js\/foundation\/foundation.cookie.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.cookie.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.cookie-ck.js",
-      "fileType" : 64
-    },
     "\/images\/apple-touch-icon-72x72.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -209,6 +208,18 @@
       "outputAbbreviatedPath" : "\/images\/apple-touch-icon-72x72.png",
       "initialSize" : 2170,
       "fileType" : 8192
+    },
+    "\/sass\/_main-settings.sass" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_main-settings.sass",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_main-settings.css",
+      "fileType" : 2,
+      "debugStyle" : 0
     },
     "\/images\/icons\/print.png" : {
       "ignoreWasSetByUser" : 0,
@@ -561,28 +572,6 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.topbar-ck.js",
       "fileType" : 64
     },
-    "\/images\/icons\/support.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/support.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/support.png",
-      "initialSize" : 2046,
-      "fileType" : 8192
-    },
-    "\/js\/foundation\/foundation.placeholder.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder-ck.js",
-      "fileType" : 64
-    },
     "\/sass\/app.sass" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -594,17 +583,6 @@
       "outputAbbreviatedPath" : "\/css\/app.css",
       "fileType" : 2,
       "debugStyle" : 0
-    },
-    "\/images\/icons-retina\/print.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons-retina\/print.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons-retina\/print.png",
-      "initialSize" : 3491,
-      "fileType" : 8192
     },
     "\/sass\/_main.sass" : {
       "ignoreWasSetByUser" : 0,
@@ -618,6 +596,39 @@
       "fileType" : 2,
       "debugStyle" : 0
     },
+    "\/js\/foundation\/foundation.placeholder.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder-ck.js",
+      "fileType" : 64
+    },
+    "\/images\/icons-retina\/print.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons-retina\/print.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons-retina\/print.png",
+      "initialSize" : 3491,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/support.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/support.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/support.png",
+      "initialSize" : 2046,
+      "fileType" : 8192
+    },
     "\/js\/foundation\/foundation.alerts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -629,6 +640,18 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.alerts-ck.js",
       "fileType" : 64
     },
+    "\/sass\/_main-responsive.sass" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_main-responsive.sass",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_main-responsive.css",
+      "fileType" : 2,
+      "debugStyle" : 0
+    },
     "\/images\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -638,6 +661,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/logo.png",
       "initialSize" : 1216,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/love.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/love.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/love.png",
+      "initialSize" : 361,
       "fileType" : 8192
     },
     "\/js\/foundation\/foundation.orbit.js" : {
@@ -651,16 +685,16 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.orbit-ck.js",
       "fileType" : 64
     },
-    "\/images\/icons\/love.png" : {
+    "\/js\/waypoints.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/love.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/love.png",
-      "initialSize" : 361,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/waypoints.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/waypoints.min-ck.js",
+      "fileType" : 64
     },
     "\/sass\/_settings.sass" : {
       "ignoreWasSetByUser" : 0,
@@ -729,6 +763,17 @@
       "initialSize" : 2942,
       "fileType" : 8192
     },
+    "\/js\/waypoints-sticky.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/waypoints-sticky.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/waypoints-sticky-ck.js",
+      "fileType" : 64
+    },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -751,26 +796,6 @@
       "initialSize" : 2090,
       "fileType" : 8192
     },
-    "\/css\/app.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/app.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/main-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
-      "fileType" : 64
-    },
     "\/images\/icons\/process-puff.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -791,6 +816,26 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.reveal-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/app.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/app.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/main-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/main-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
       "fileType" : 64
     },
     "\/js\/foundation\/foundation.tooltips.js" : {
