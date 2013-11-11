@@ -7213,7 +7213,6 @@ a.th {
  * ================================================== */
 /* line 27, ../sass/_main.sass */
 body {
-  background: #f7f7f7;
   font-family: "Lato", sans-serif;
   color: #575756;
 }
@@ -7462,19 +7461,19 @@ section .sub-title p {
   display: inline-block;
   height: 105px;
   width: 105px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -375px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -563px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #service .content .service-print:hover {
-  background-position: 0 -250px;
+  background-position: 0 -438px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #service .content .service-print {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -375px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -563px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7482,7 +7481,7 @@ section .sub-title p {
   }
   /* line 92, ../sass/_main-settings.sass */
   #service .content .service-print:hover {
-    background-position: 0 -250px;
+    background-position: 0 -438px;
   }
 }
 /* line 215, ../sass/_main.sass */
@@ -7490,19 +7489,19 @@ section .sub-title p {
   display: inline-block;
   height: 105px;
   width: 105px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1064px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1252px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #service .content .service-web:hover {
-  background-position: 0 -1377px;
+  background-position: 0 -1565px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #service .content .service-web {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -1377px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1565px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7510,7 +7509,7 @@ section .sub-title p {
   }
   /* line 92, ../sass/_main-settings.sass */
   #service .content .service-web:hover {
-    background-position: 0 -1252px;
+    background-position: 0 -1440px;
   }
 }
 /* line 215, ../sass/_main.sass */
@@ -7518,7 +7517,7 @@ section .sub-title p {
   display: inline-block;
   height: 105px;
   width: 105px;
-  background-image: url('../images/icons-s228618c2de.png');
+  background-image: url('../images/icons-s4f6a37bd59.png');
   background-position: 0 -125px;
   background-repeat: no-repeat;
 }
@@ -7529,7 +7528,7 @@ section .sub-title p {
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #service .content .service-support {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
+    background-image: url('../images/icons-retina-s612803ab75.png');
     background-position: 0 -125px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
@@ -7589,15 +7588,15 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -688px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -876px;
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-5 i.process-idea {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -876px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1064px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7609,15 +7608,15 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -970px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1158px;
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-5 i.process-plan {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -970px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1158px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7629,15 +7628,15 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1502px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1690px;
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-5 i.process-puff {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -1596px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1784px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7649,15 +7648,15 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1189px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1377px;
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-5 i.process-boil {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -1158px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1346px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7669,15 +7668,15 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -594px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -782px;
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-5 i.process-lab {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -594px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -782px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7705,19 +7704,19 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -688px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -876px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #process .large-7.hide-for-small .process-idea:hover {
-  background-position: 0 -1283px;
+  background-position: 0 -1471px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-7.hide-for-small .process-idea {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -876px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1064px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7725,7 +7724,7 @@ section .sub-title p {
   }
   /* line 92, ../sass/_main-settings.sass */
   #process .large-7.hide-for-small .process-idea:hover {
-    background-position: 0 -688px;
+    background-position: 0 -876px;
   }
 }
 /* line 260, ../sass/_main.sass */
@@ -7733,74 +7732,18 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -970px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1158px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #process .large-7.hide-for-small .process-plan:hover {
-  background-position: 0 -782px;
+  background-position: 0 -970px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-7.hide-for-small .process-plan {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -970px;
-    -webkit-background-size: 105px auto;
-    -moz-background-size: 105px auto;
-    -o-background-size: 105px auto;
-    background-size: 105px auto;
-  }
-  /* line 92, ../sass/_main-settings.sass */
-  #process .large-7.hide-for-small .process-plan:hover {
-    background-position: 0 -782px;
-  }
-}
-/* line 260, ../sass/_main.sass */
-#process .large-7.hide-for-small .process-puff {
-  display: inline-block;
-  height: 74px;
-  width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1502px;
-  background-repeat: no-repeat;
-}
-/* line 72, ../sass/_main-settings.sass */
-#process .large-7.hide-for-small .process-puff:hover {
-  background-position: 0 -1596px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 84, ../sass/_main-settings.sass */
-  #process .large-7.hide-for-small .process-puff {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -1596px;
-    -webkit-background-size: 105px auto;
-    -moz-background-size: 105px auto;
-    -o-background-size: 105px auto;
-    background-size: 105px auto;
-  }
-  /* line 92, ../sass/_main-settings.sass */
-  #process .large-7.hide-for-small .process-puff:hover {
-    background-position: 0 -1502px;
-  }
-}
-/* line 260, ../sass/_main.sass */
-#process .large-7.hide-for-small .process-boil {
-  display: inline-block;
-  height: 74px;
-  width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1189px;
-  background-repeat: no-repeat;
-}
-/* line 72, ../sass/_main-settings.sass */
-#process .large-7.hide-for-small .process-boil:hover {
-  background-position: 0 -876px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 84, ../sass/_main-settings.sass */
-  #process .large-7.hide-for-small .process-boil {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
+    background-image: url('../images/icons-retina-s612803ab75.png');
     background-position: 0 -1158px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
@@ -7808,8 +7751,64 @@ section .sub-title p {
     background-size: 105px auto;
   }
   /* line 92, ../sass/_main-settings.sass */
+  #process .large-7.hide-for-small .process-plan:hover {
+    background-position: 0 -970px;
+  }
+}
+/* line 260, ../sass/_main.sass */
+#process .large-7.hide-for-small .process-puff {
+  display: inline-block;
+  height: 74px;
+  width: 74px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1690px;
+  background-repeat: no-repeat;
+}
+/* line 72, ../sass/_main-settings.sass */
+#process .large-7.hide-for-small .process-puff:hover {
+  background-position: 0 -1784px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 84, ../sass/_main-settings.sass */
+  #process .large-7.hide-for-small .process-puff {
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1784px;
+    -webkit-background-size: 105px auto;
+    -moz-background-size: 105px auto;
+    -o-background-size: 105px auto;
+    background-size: 105px auto;
+  }
+  /* line 92, ../sass/_main-settings.sass */
+  #process .large-7.hide-for-small .process-puff:hover {
+    background-position: 0 -1690px;
+  }
+}
+/* line 260, ../sass/_main.sass */
+#process .large-7.hide-for-small .process-boil {
+  display: inline-block;
+  height: 74px;
+  width: 74px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1377px;
+  background-repeat: no-repeat;
+}
+/* line 72, ../sass/_main-settings.sass */
+#process .large-7.hide-for-small .process-boil:hover {
+  background-position: 0 -1064px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 84, ../sass/_main-settings.sass */
+  #process .large-7.hide-for-small .process-boil {
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1346px;
+    -webkit-background-size: 105px auto;
+    -moz-background-size: 105px auto;
+    -o-background-size: 105px auto;
+    background-size: 105px auto;
+  }
+  /* line 92, ../sass/_main-settings.sass */
   #process .large-7.hide-for-small .process-boil:hover {
-    background-position: 0 -1064px;
+    background-position: 0 -1252px;
   }
 }
 /* line 260, ../sass/_main.sass */
@@ -7817,19 +7816,19 @@ section .sub-title p {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -594px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -782px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #process .large-7.hide-for-small .process-lab:hover {
-  background-position: 0 -500px;
+  background-position: 0 -688px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-7.hide-for-small .process-lab {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -594px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -782px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7837,7 +7836,7 @@ section .sub-title p {
   }
   /* line 92, ../sass/_main-settings.sass */
   #process .large-7.hide-for-small .process-lab:hover {
-    background-position: 0 -500px;
+    background-position: 0 -688px;
   }
 }
 /* line 263, ../sass/_main.sass */
@@ -7875,54 +7874,59 @@ section .sub-title p {
 #process .large-7.hide-for-small .launch-bg {
   display: block;
   position: absolute;
+  text-align: center;
   bottom: 0;
   left: 50%;
   margin-left: -10em;
+  background-image: url('../images/process-launch-bg.png?1384208815');
+  background-position: center bottom;
   height: 10em;
   width: 20em;
   border-radius: 20em 20em 0 0;
   -moz-border-radius: 20em 20em 0 0;
   -webkit-border-radius: 20em 20em 0 0;
-  background: #e6e6e6;
 }
-/* line 297, ../sass/_main.sass */
-#process .large-7.hide-for-small i h4 {
-  text-transform: uppercase;
-  position: relative;
-  top: -1.75em;
-  text-align: center;
-  letter-spacing: 1px;
-  transition: all 0.25s linear;
-  -moz-transition: all 0.25s linear;
-  -webkit-transition: all 0.25s linear;
+/* line 298, ../sass/_main.sass */
+#process .large-7.hide-for-small .launch-bg:hover {
+  background-image: url('../images/process-launch-bg-hover.png?1384208829');
+}
+/* line 300, ../sass/_main.sass */
+#process .large-7.hide-for-small .launch-bg h4 {
+  color: #575756;
 }
 /* line 304, ../sass/_main.sass */
-#process .large-7.hide-for-small i:hover h4 {
-  color: #fcc400;
+#process .large-7.hide-for-small h4 i {
+  text-align: center;
 }
 /* line 306, ../sass/_main.sass */
+#process .large-7.hide-for-small h4 span {
+  position: relative;
+  top: -1.5625em;
+  font-style: normal;
+}
+/* line 319, ../sass/_main.sass */
 #process .large-7.show-for-small {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }
-/* line 312, ../sass/_main.sass */
+/* line 325, ../sass/_main.sass */
 #process .large-7.show-for-small .process-idea {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -688px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -876px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #process .large-7.show-for-small .process-idea:hover {
-  background-position: 0 -1283px;
+  background-position: 0 -1471px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-7.show-for-small .process-idea {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -876px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1064px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -7930,82 +7934,26 @@ section .sub-title p {
   }
   /* line 92, ../sass/_main-settings.sass */
   #process .large-7.show-for-small .process-idea:hover {
-    background-position: 0 -688px;
+    background-position: 0 -876px;
   }
 }
-/* line 312, ../sass/_main.sass */
+/* line 325, ../sass/_main.sass */
 #process .large-7.show-for-small .process-plan {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -970px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1158px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #process .large-7.show-for-small .process-plan:hover {
-  background-position: 0 -782px;
+  background-position: 0 -970px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-7.show-for-small .process-plan {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -970px;
-    -webkit-background-size: 105px auto;
-    -moz-background-size: 105px auto;
-    -o-background-size: 105px auto;
-    background-size: 105px auto;
-  }
-  /* line 92, ../sass/_main-settings.sass */
-  #process .large-7.show-for-small .process-plan:hover {
-    background-position: 0 -782px;
-  }
-}
-/* line 312, ../sass/_main.sass */
-#process .large-7.show-for-small .process-puff {
-  display: inline-block;
-  height: 74px;
-  width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1502px;
-  background-repeat: no-repeat;
-}
-/* line 72, ../sass/_main-settings.sass */
-#process .large-7.show-for-small .process-puff:hover {
-  background-position: 0 -1596px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 84, ../sass/_main-settings.sass */
-  #process .large-7.show-for-small .process-puff {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -1596px;
-    -webkit-background-size: 105px auto;
-    -moz-background-size: 105px auto;
-    -o-background-size: 105px auto;
-    background-size: 105px auto;
-  }
-  /* line 92, ../sass/_main-settings.sass */
-  #process .large-7.show-for-small .process-puff:hover {
-    background-position: 0 -1502px;
-  }
-}
-/* line 312, ../sass/_main.sass */
-#process .large-7.show-for-small .process-boil {
-  display: inline-block;
-  height: 74px;
-  width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1189px;
-  background-repeat: no-repeat;
-}
-/* line 72, ../sass/_main-settings.sass */
-#process .large-7.show-for-small .process-boil:hover {
-  background-position: 0 -876px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 84, ../sass/_main-settings.sass */
-  #process .large-7.show-for-small .process-boil {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
+    background-image: url('../images/icons-retina-s612803ab75.png');
     background-position: 0 -1158px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
@@ -8013,28 +7961,84 @@ section .sub-title p {
     background-size: 105px auto;
   }
   /* line 92, ../sass/_main-settings.sass */
-  #process .large-7.show-for-small .process-boil:hover {
-    background-position: 0 -1064px;
+  #process .large-7.show-for-small .process-plan:hover {
+    background-position: 0 -970px;
   }
 }
-/* line 312, ../sass/_main.sass */
+/* line 325, ../sass/_main.sass */
+#process .large-7.show-for-small .process-puff {
+  display: inline-block;
+  height: 74px;
+  width: 74px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1690px;
+  background-repeat: no-repeat;
+}
+/* line 72, ../sass/_main-settings.sass */
+#process .large-7.show-for-small .process-puff:hover {
+  background-position: 0 -1784px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 84, ../sass/_main-settings.sass */
+  #process .large-7.show-for-small .process-puff {
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1784px;
+    -webkit-background-size: 105px auto;
+    -moz-background-size: 105px auto;
+    -o-background-size: 105px auto;
+    background-size: 105px auto;
+  }
+  /* line 92, ../sass/_main-settings.sass */
+  #process .large-7.show-for-small .process-puff:hover {
+    background-position: 0 -1690px;
+  }
+}
+/* line 325, ../sass/_main.sass */
+#process .large-7.show-for-small .process-boil {
+  display: inline-block;
+  height: 74px;
+  width: 74px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1377px;
+  background-repeat: no-repeat;
+}
+/* line 72, ../sass/_main-settings.sass */
+#process .large-7.show-for-small .process-boil:hover {
+  background-position: 0 -1064px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 84, ../sass/_main-settings.sass */
+  #process .large-7.show-for-small .process-boil {
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1346px;
+    -webkit-background-size: 105px auto;
+    -moz-background-size: 105px auto;
+    -o-background-size: 105px auto;
+    background-size: 105px auto;
+  }
+  /* line 92, ../sass/_main-settings.sass */
+  #process .large-7.show-for-small .process-boil:hover {
+    background-position: 0 -1252px;
+  }
+}
+/* line 325, ../sass/_main.sass */
 #process .large-7.show-for-small .process-lab {
   display: inline-block;
   height: 74px;
   width: 74px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -594px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -782px;
   background-repeat: no-repeat;
 }
 /* line 72, ../sass/_main-settings.sass */
 #process .large-7.show-for-small .process-lab:hover {
-  background-position: 0 -500px;
+  background-position: 0 -688px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   #process .large-7.show-for-small .process-lab {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -594px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -782px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;
@@ -8042,33 +8046,63 @@ section .sub-title p {
   }
   /* line 92, ../sass/_main-settings.sass */
   #process .large-7.show-for-small .process-lab:hover {
-    background-position: 0 -500px;
+    background-position: 0 -688px;
   }
 }
-/* line 316, ../sass/_main.sass */
-#process .large-7.show-for-small i h4 {
-  text-transform: uppercase;
-  position: relative;
-  top: -1.75em;
-  text-align: center;
-  letter-spacing: 1px;
-  transition: all 0.25s linear;
-  -moz-transition: all 0.25s linear;
-  -webkit-transition: all 0.25s linear;
+/* line 325, ../sass/_main.sass */
+#process .large-7.show-for-small .process-launch {
+  display: inline-block;
+  height: 74px;
+  width: 74px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -344px;
+  background-repeat: no-repeat;
 }
-/* line 323, ../sass/_main.sass */
-#process .large-7.show-for-small i:hover h4 {
-  color: #fcc400;
+/* line 72, ../sass/_main-settings.sass */
+#process .large-7.show-for-small .process-launch:hover {
+  background-position: 0 -250px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 84, ../sass/_main-settings.sass */
+  #process .large-7.show-for-small .process-launch {
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -344px;
+    -webkit-background-size: 105px auto;
+    -moz-background-size: 105px auto;
+    -o-background-size: 105px auto;
+    background-size: 105px auto;
+  }
+  /* line 92, ../sass/_main-settings.sass */
+  #process .large-7.show-for-small .process-launch:hover {
+    background-position: 0 -250px;
+  }
+}
+/* line 328, ../sass/_main.sass */
+#process .large-7.show-for-small h4 {
+  display: inline-block;
+  margin-right: 0.625em;
+  margin-top: 1.875em;
+}
+/* line 332, ../sass/_main.sass */
+#process .large-7.show-for-small h4 i {
+  text-align: center;
+}
+/* line 334, ../sass/_main.sass */
+#process .large-7.show-for-small h4 span {
+  position: relative;
+  top: -1.5625em;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 /* 2. Page Styles
  * 		2.5. About
  * ================================================== */
-/* line 331, ../sass/_main.sass */
+/* line 355, ../sass/_main.sass */
 #about {
   margin-top: 0;
 }
-/* line 333, ../sass/_main.sass */
+/* line 357, ../sass/_main.sass */
 #about .about-bg {
   background: #86cbcb;
   padding: 2.5em 0 1.25em;
@@ -8076,51 +8110,56 @@ section .sub-title p {
   -moz-box-shadow: inset 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
 }
-/* line 337, ../sass/_main.sass */
+/* line 361, ../sass/_main.sass */
 #about .about-bg .title h2 {
   border-top-color: white;
   color: white;
 }
-/* line 340, ../sass/_main.sass */
+/* line 364, ../sass/_main.sass */
 #about .about-bg .sub-title {
   color: white;
 }
-/* line 342, ../sass/_main.sass */
+/* line 366, ../sass/_main.sass */
 #about .about-bg .row .large-12 {
   margin-top: 0;
 }
-/* line 344, ../sass/_main.sass */
+/* line 368, ../sass/_main.sass */
 #about .row .large-12 {
   margin-top: 2.5em;
 }
-/* line 346, ../sass/_main.sass */
+/* line 370, ../sass/_main.sass */
 #about .bar-sep {
   width: 100%;
   height: auto;
+}
+/* line 373, ../sass/_main.sass */
+#about h4 small {
+  color: #b3b3b3;
+  text-transform: uppercase;
 }
 
 /* 2. Page Styles
  * 		2.6. Contact
  * ================================================== */
-/* line 354, ../sass/_main.sass */
+/* line 381, ../sass/_main.sass */
 #contact {
   margin-bottom: 2.5em;
 }
-/* line 356, ../sass/_main.sass */
+/* line 383, ../sass/_main.sass */
 #contact textarea {
   height: 11.25em;
 }
-/* line 359, ../sass/_main.sass */
+/* line 386, ../sass/_main.sass */
 #contact input[type="checkbox"] {
   display: none;
   position: relative;
 }
-/* line 362, ../sass/_main.sass */
+/* line 389, ../sass/_main.sass */
 #contact input[type="checkbox"] + label {
   text-align: center;
   margin-bottom: 0.9375em;
 }
-/* line 365, ../sass/_main.sass */
+/* line 392, ../sass/_main.sass */
 #contact input[type="checkbox"] + label span {
   width: 100%;
   height: 3.125em;
@@ -8131,7 +8170,7 @@ section .sub-title p {
   background: #e6e6e6;
   padding: 1.0625em 0;
 }
-/* line 375, ../sass/_main.sass */
+/* line 402, ../sass/_main.sass */
 #contact input[type="checkbox"]:checked + label span {
   background: #b3b3b3;
 }
@@ -8139,20 +8178,20 @@ section .sub-title p {
 /* 2. Page Styles
  * 		2.7. Footer
  * ================================================== */
-/* line 383, ../sass/_main.sass */
+/* line 410, ../sass/_main.sass */
 footer {
-  -webkit-box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px -8px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
   padding: 0.9375em 0 0;
 }
-/* line 386, ../sass/_main.sass */
+/* line 413, ../sass/_main.sass */
 footer i.love {
   display: inline-block;
   height: 16px;
   width: 16px;
-  background-image: url('../images/icons-s228618c2de.png');
-  background-position: 0 -1690px;
+  background-image: url('../images/icons-s4f6a37bd59.png');
+  background-position: 0 -1878px;
   background-repeat: no-repeat;
   position: relative;
   top: 4px;
@@ -8160,8 +8199,8 @@ footer i.love {
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 84, ../sass/_main-settings.sass */
   footer i.love {
-    background-image: url('../images/icons-retina-sf7fe872799.png');
-    background-position: 0 -1690px;
+    background-image: url('../images/icons-retina-s612803ab75.png');
+    background-position: 0 -1878px;
     -webkit-background-size: 105px auto;
     -moz-background-size: 105px auto;
     -o-background-size: 105px auto;

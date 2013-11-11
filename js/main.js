@@ -12,6 +12,7 @@ $(document).ready(function() {
       $('#process-puff').hide();
       $('#process-boil').hide();
       $('#process-lab').hide();
+      $('#process-launch').hide();
   }
 
   hideAllProcess();

@@ -25,7 +25,7 @@
  * ================================================== */
 
 body
-	background: #f7f7f7
+	// background: #f7f7f7
 	font-family: "Lato", sans-serif
 	color: $gray
 
@@ -284,44 +284,68 @@ section
 		.launch-bg
 			+block
 			+absolute
+			text-align: center
 			bottom: 0
 			left: 50%
 			margin-left: emCalc(-160px)
+			background-image: image-url('process-launch-bg.png')
+			background-position: center bottom
 			height: emCalc(160px)
 			width: emCalc(320px)
 			border-radius: emCalc(320px) emCalc(320px) 0 0
 			-moz-border-radius: emCalc(320px) emCalc(320px) 0 0
 			-webkit-border-radius: emCalc(320px) emCalc(320px) 0 0
-			background: $gray-sup-light
-		i
+			&:hover
+				background-image: image-url('process-launch-bg-hover.png')
 			h4
-				text-transform: uppercase
-				position: relative
-				top: emCalc(-28px)
+				color: $gray
+
+		h4
+			i
 				text-align: center
-				letter-spacing: 1px
-				+fade(all, .25s)
-			&:hover h4
-				color: $orange
+			span
+				+relative
+				top: emCalc(-25px)
+				font-style: normal
+		// 	h4
+		// 		text-transform: uppercase
+		// 		position: relative
+		// 		top: emCalc(-28px)
+		// 		text-align: center
+		// 		letter-spacing: 1px
+		// 		+fade(all, .25s)
+		// 	&:hover h4
+		// 		color: $orange
 	.large-7.show-for-small
 		margin:
 			top: emCalc(20px)
 			bottom: emCalc(20px)
-		$process: idea plan puff boil lab
+		$process: idea plan puff boil lab launch
 		@each $i in $process
 			.process-#{$i}
 				+iBlock
 				+retina-sprite(process-#{$i}, $hover: true)
-		i
-			h4
-				text-transform: uppercase
-				position: relative
-				top: emCalc(-28px)
+		h4
+			display: inline-block
+			margin-right: emCalc(10px)
+			margin-top: emCalc(30px)
+			i
 				text-align: center
-				letter-spacing: 1px
-				+fade(all, .25s)
-			&:hover h4
-				color: $orange
+			span
+				+relative
+				top: emCalc(-25px)
+				font-style: normal
+				text-transform: uppercase
+		// i
+		// 	h4
+		// 		text-transform: uppercase
+		// 		position: relative
+		// 		top: emCalc(-28px)
+		// 		text-align: center
+		// 		letter-spacing: 1px
+		// 		+fade(all, .25s)
+		// 	&:hover h4
+		// 		color: $orange
 
 
 /* 2. Page Styles
@@ -346,6 +370,9 @@ section
 	.bar-sep
 		width: 100%
 		height: auto
+	h4 small
+		color: $gray-light
+		text-transform: uppercase
 
 /* 2. Page Styles
  * 		2.6. Contact
@@ -381,7 +408,7 @@ section
  * ================================================== */
 
 footer
-	+box-shadow(0px -8px 10px 0px rgba(0, 0, 0, .05))
+	+box-shadow(0px -4px 10px 0px rgba(0, 0, 0, .05))
 	padding: emCalc(15px) 0 0
 	i.love
 		+iBlock
