@@ -261,6 +261,9 @@ section
 			.process-#{$i}
 				+iBlock
 				+retina-sprite(process-#{$i}, $hover: true)
+			.process-#{$i}.active
+				+iBlock
+				+retina-sprite(process-#{$i}-hover)
 		.process-idea
 			+absolute
 			bottom: 5%
@@ -308,6 +311,8 @@ section
 				+relative
 				top: emCalc(-25px)
 				font-style: normal
+			&:hover span, &.active span
+				color: $orange
 		// 	h4
 		// 		text-transform: uppercase
 		// 		position: relative
@@ -326,6 +331,9 @@ section
 			.process-#{$i}
 				+iBlock
 				+retina-sprite(process-#{$i}, $hover: true)
+			.process-#{$i}.active
+				+iBlock
+				+retina-sprite(process-#{$i}-hover)
 		h4
 			display: inline-block
 			margin-right: emCalc(10px)
@@ -337,6 +345,8 @@ section
 				top: emCalc(-25px)
 				font-style: normal
 				text-transform: uppercase
+			&:hover span, &.active span
+				color: $orange
 		// i
 		// 	h4
 		// 		text-transform: uppercase
