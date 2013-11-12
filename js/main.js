@@ -19,8 +19,10 @@ $(document).ready(function() {
   $('#process-idea').show();
 
   $('.large-7.columns.ideapuffProcess i').on('click', function() {
+      $('.large-7.columns.ideapuffProcess h4').removeClass('active');
       $('.large-7.columns.ideapuffProcess i').removeClass('active');
       $(this).addClass('active');
+      $(this).parent('h4').addClass('active');
       var processId = $(this).find('input').val();
       hideAllProcess();
       $('#' + processId).show();
@@ -29,12 +31,16 @@ $(document).ready(function() {
   $('a.right.processBtn').click(function(){
       $(this).parents('.large-5.columns').hide();
       $(this).parents('.large-5.columns').next('.large-5.columns').show();
-      $('.large-7.columns.ideapuffProcess i.active').removeClass('active').next('i').addClass('active');
+      $('.large-7.columns.ideapuffProcess i.active').removeClass('active');
+      $('.large-7.columns.ideapuffProcess h4.active').removeClass('active').next('h4').addClass('active').find('i').addClass('active');
+//      $('.large-7.columns.ideapuffProcess i.active').removeClass('active').next('h4').find('i').addClass('active');
   });
 
   $('a.left.processBtn').click(function(){
       $(this).parents('.large-5.columns').hide();
       $(this).parents('.large-5.columns').prev('.large-5.columns').show();
-      $('.large-7.columns.ideapuffProcess i.active').removeClass('active').prev('i').addClass('active');
+      $('.large-7.columns.ideapuffProcess i.active').removeClass('active');
+      $('.large-7.columns.ideapuffProcess h4.active').removeClass('active').prev('h4').addClass('active').find('i').addClass('active');
+//      $('.large-7.columns.ideapuffProcess i.active').removeClass('active').prev('h4 i').addClass('active');
   });
 });
