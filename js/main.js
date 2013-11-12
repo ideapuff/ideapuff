@@ -5,7 +5,17 @@ $(document).ready(function() {
         $(this).parent().find('p').toggleClass('active');
         $(this).parent().find('span').toggleClass('active');
     });
-
+    
+    
+    //anchor link
+    $('#topNav a').click(function(){
+        var navID = $(this).attr('href');
+        var topPosition = $(navID).offset().top;
+        $('html, body').animate({scrollTop:topPosition}, 'slow');
+    });
+    
+    
+    //Process
     function hideAllProcess() {
         $('#process-idea').hide();
         $('#process-plan').hide();
