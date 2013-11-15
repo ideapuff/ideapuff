@@ -8410,17 +8410,22 @@ section .sub-title p {
   background: #b3b3b3;
 }
 
+/* line 420, ../sass/_main.sass */
+label.error {
+  color: #ed725c;
+}
+
 /* 2. Page Styles
  * 		2.7. Footer
  * ================================================== */
-/* line 425, ../sass/_main.sass */
+/* line 426, ../sass/_main.sass */
 footer {
   -webkit-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
   padding: 0.9375em 0 0;
 }
-/* line 428, ../sass/_main.sass */
+/* line 429, ../sass/_main.sass */
 footer i.love {
   display: inline-block;
   height: 16px;
