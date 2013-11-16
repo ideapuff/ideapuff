@@ -99,7 +99,11 @@ header
 			position: top center
 	img
 		margin: emCalc(20px)
-		height: emCalc(45px)
+		width: 100%
+		height: auto
+	.small-logo
+		width: emCalc(45px)
+		height: auto
 	nav
 		padding:
 			right: emCalc(15px)
@@ -153,6 +157,19 @@ section
 				size: emCalc(24px)
 				weight: 300
 
+.button
+	background: none
+	border: 1px solid rgba(255, 255, 255, 0.3)
+	box-shadow: none
+	-webkit-box-shadow: none
+	+box-radius(3px)
+	text-transform: uppercase
+	letter-spacing: emCalc(1px)
+	&:hover
+		+fade(all, 0.25s)
+		background: white
+		color: $gray
+
 /* 2. Page Styles
  * 		2.2. Call to Action
  * ================================================== */
@@ -178,10 +195,10 @@ section
 	.headline
 		+absolute
 		width: emCalc(600px)
-		height: emCalc(300px)
+		height: emCalc(200px)
 		top: 50%
 		left: 50%
-		margin-top: emCalc(-150px)
+		margin-top: emCalc(-100px)
 		margin-left: emCalc(-300px)
 		z-index: 99
 		span
@@ -196,13 +213,15 @@ section
 		h1
 			color: white
 			font:
-				size: emCalc(36px)
+				size: emCalc(72px)
 				weight: bold
+			line-height: 50%
 		h3
 			color: white
 		p
-			color: white
-			font-style: italic
+			color: $gray-light
+			text-transform: uppercase
+			letter-spacing: emCalc(1px)
 		img
 			width: 80%
 
@@ -232,7 +251,7 @@ section
 			+fade(all, .25s)
 			+relative
 			top: emCalc(-75px)
-			line-height: 200%
+			line-height: 150%
 			&.active
 				@include opacity(1)
 	.bar-sep
